@@ -1,0 +1,90 @@
+h1 {
+	background-image: url(../images/morado.jfif);
+	  height: 6.5rem;
+  text-align: center;
+  color: white;
+}
+html {
+    text-align: center;
+    background-image: url(../images/kitty.jpeg);
+}
+img {
+    margin-right: auto;
+    height: 294.5px;
+    width: 421px;
+}
+/*estilos de paginas */
+
+html, body {
+	height: 100%;
+}
+
+/*modificador de modelo de cajas de css*/
+
+html {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	-webkit-box-sizing: inherit;
+			box-sizing: inherit;
+}
+html {
+    text-align: center;
+    background-color: pink;
+}
+
+/*resetear margenes y bordes*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+.container {
+	width: 90%;
+	max-width: 1366px;
+	margin: 0 auto;
+}
+/* Seccion 1 */
+#seccionSegundo {
+	display: flex;
+	padding: 80px 0;
+}
+
+#seccionSegundo div {
+	padding: 0 0.5em;
+	align-self: center;
+	flex-basis: 60%;
+}
+
+#seccionSegundo img {
+	flex-basis: 40%;
+	max-width: 40%;
+	align-self: flex-start;
+}
+#seccionSegundo {
+	margin-bottom: 12px;
+	color: #3c3c3c;
+	font-size: 1.1rem;
+	font-weight: 100;
+}
+a.btn {
+    margin: 12.5rem;
+    border: solid;
+}
+div {
+    text-align: revert;
+    border: double;
+}
+div {
+    justify-content: center;
+}
+img {
+    margin-right: auto;
+    height: 294.5px;
+    width: 421px;
+}
